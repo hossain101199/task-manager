@@ -4,8 +4,8 @@ const DeleteIcon = () => {
   return (
     <svg
       fill="#000000"
-      width="40px"
-      height="40px"
+      width="24px"
+      height="24px"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

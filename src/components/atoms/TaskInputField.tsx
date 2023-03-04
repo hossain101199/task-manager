@@ -1,35 +1,35 @@
 import React, { useRef } from "react";
+import Form from "./Form";
+import InputField from "./InputField";
+import PrimaryButton from "./PrimaryButton";
 
 interface Props {
-  task: string;
-  setTask: React.Dispatch<React.SetStateAction<string>>;
-  handleAdd: (e: React.FormEvent) => void;
+  handleAdd: (e: React.FormEvent<HTMLFormElement>) => void;
 }
 
-const TaskInputField: React.FC<Props> = ({ task, setTask, handleAdd }) => {
+const TaskInputField: React.FC<Props> = ({ handleAdd }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
     <div>
-      <form
-        className="flex"
+      <Form
+        className="flex flex-col md:flex-row justify-center gap-3 first-letter mb-5"
         onSubmit={(e) => {
           handleAdd(e);
           inputRef.current?.blur();
         }}
       >
-        <input
+        <InputField
           type="text"
           placeholder="Enter a Task"
-          ref={inputRef}
-          value={task}
-          onChange={(e) => setTask(e.target.value)}
-          className="w-full border-2 border-black"
+          name="taskInput"
+          inputRef={inputRef}
+          className="w-full focus:drop-shadow-2xl input__box"
         />
-        <button type="submit" className="bg-slate-500">
+        <PrimaryButton type="submit" className="w-full md:w-fit">
           ADD
-        </button>
-      </form>
+        </PrimaryButton>
+      </Form>
     </div>
   );
 };

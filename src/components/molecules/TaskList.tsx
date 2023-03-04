@@ -9,7 +9,7 @@ interface Props {
 
 const TaskList: React.FC<Props> = ({ tasks, setTasks }) => {
   return (
-    <div className="border-2 border-blue-500">
+    <div className="flex flex-col gap-3 ">
       {tasks.map((task) => {
         return (
           <SingleTask

@@ -17,9 +17,9 @@ Task Manager is a simple React application that lets you keep track of tasks, ma
 - Edit tasks
 - Delete tasks
 
-## Things I learned while Doing this project
+## Things I have learned while Doing this project
 
-During the development of Task Manager, I learned the following:
+During the development of Task Manager, I have learned the following:
 
 - TypeScript:
   - How to declare types for variables, functions, and interfaces

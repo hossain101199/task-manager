@@ -3,9 +3,9 @@ import CheckIcon from "../../assets/svgs/CheckIcon";
 import DeleteIcon from "../../assets/svgs/DeleteIcon";
 import EditIcon from "../../assets/svgs/EditIcon";
 import { Task } from "../../models/models";
-import Form from "./Form";
-import InputField from "./InputField";
-import PrimaryButton from "./PrimaryButton";
+import Form from "../atoms/Form";
+import InputField from "../atoms/InputField";
+import PrimaryButton from "../atoms/PrimaryButton";
 
 interface Props {
   task: Task;

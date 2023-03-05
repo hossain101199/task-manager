@@ -1,6 +1,6 @@
 import React from "react";
 import { Task } from "../../models/models";
-import SingleTask from "../atoms/SingleTask";
+import SingleTask from "./SingleTask";
 
 interface Props {
   tasks: Task[];

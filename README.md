@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task Manager - A Simple Todo Application
 
-## Available Scripts
+Task Manager is a simple React application that lets you keep track of tasks, mark them as completed, edit them, and delete them. The application is built with TypeScript and Tailwind CSS, and it features reusable components, a modular folder structure, and an Atomic Design pattern.
 
-In the project directory, you can run:
+<!-- ## Built With
 
-### `npm start`
+- `TypeScript`
+- `React`
+- `Tailwind CSS` -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Add tasks with a title
+- Mark tasks as completed
+- Edit tasks
+- Delete tasks
 
-### `npm test`
+## Things I learned while Doing this project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During the development of Task Manager, I learned the following:
 
-### `npm run build`
+- TypeScript:
+  - How to declare types for variables, functions, and interfaces
+  - How to use type inference to catch errors early
+  - How to leverage TypeScript's advanced features, such as union types and generics
+- Coding standards:
+  - The importance of consistent formatting, naming conventions, and commenting
+  - How to follow best practices for error handling, debugging, and testing
+  - How to write maintainable code that is easy to understand and modify
+- Reusable components:
+  - How to break down a UI into smaller, reusable parts
+  - How to use props and state to make components more flexible
+  - How to leverage hooks and other patterns to build more complex behavior
+- Folder structure:
+  - How to organize code into logical modules and components
+  - How to code more modular and reusable
+  - How to use the Atomic Design pattern to create a scalable and flexible UI architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install and run Task Manager locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository
 
-### `npm run eject`
+```sh
+git clone https://github.com/hossain101199/task-manager.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Install dependencies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+ npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Start the development server
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To use Task Manager, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Navigate to `localhost:3000` in your browser
+2. Add a new task by clicking the "Add Task" button and filling out the form
+3. Mark a task as completed by clicking the checkbox next to the task
+4. Edit a task by clicking the "Edit" button next to the task and modifying the form
+5. Delete a task by clicking the "Delete" button next to the task
+
+## Contact
+
+If you have any questions or feedback, feel free to contact me:
+
+- Mohammad Hossain - [Linkedin](https://www.linkedin.com/in/hossain1011/) - fshossain10@gmail.com
+
+## Project Link
+
+You can also check out the live version of the application on [Vercel](https://task-manager-gold-phi.vercel.app/).
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/hossain1011/

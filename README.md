@@ -4,11 +4,11 @@
 
 Task Manager is a simple React application that lets you keep track of tasks, mark them as completed, edit them, and delete them. The application is built with TypeScript and Tailwind CSS, and it features reusable components, a modular folder structure, and an Atomic Design pattern.
 
-<!-- ## Built With
+## Built With
 
 - `TypeScript`
 - `React`
-- `Tailwind CSS` -->
+- `Tailwind CSS`
 
 ## Features
 
